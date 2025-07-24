@@ -1,0 +1,33 @@
+{
+    "camera": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 60,
+        "device_id": 0,
+        "exposure": -7,
+        "gain": 0
+    },
+    "tracking": {
+        "kalman_process_noise": 0.001,
+        "kalman_measurement_noise": 0.1,
+        "temporal_window": 10,
+        "adaptive_smoothing": true,
+        "velocity_threshold_fast": 20,
+        "velocity_threshold_medium": 10,
+        "blink_threshold": 0.22,
+        "click_cooldown": 0.8
+    },
+    "calibration": {
+        "polynomial_degree": 3,
+        "grid_size": 5,
+        "samples_per_point": 50,
+        "point_display_time": 4.0,
+        "validation_points": 9
+    },
+    "display": {
+        "show_prediction": true,
+        "show_confidence": true,
+        "show_velocity": true,
+        "show_detailed_info": true
+    }
+}
