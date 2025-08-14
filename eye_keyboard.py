@@ -9,7 +9,7 @@ import threading
 import queue
 from collections import deque
 
-class EyeKeyboard:
+class EyeKeyboard: 
     def __init__(self):
         self.cam = cv2.VideoCapture(0)
         self.face_mesh = mp.solutions.face_mesh.FaceMesh(
