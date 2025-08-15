@@ -4,7 +4,7 @@ import pyautogui
 import numpy as np
 import time 
 import math
-
+ 
 class PupilMouseControl:
     def __init__(self):
         # Initialize camera and face mesh
