@@ -3,7 +3,7 @@ import mediapipe as mp
 import pyautogui
 import time
 
-# Initialize components
+# Initialize components 
 cam = cv2.VideoCapture(0)
 face_mesh = mp.solutions.face_mesh.FaceMesh(refine_landmarks=True)
 screen_w, screen_h = pyautogui.size()
